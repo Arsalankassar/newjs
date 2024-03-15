@@ -1,0 +1,70 @@
+*{
+    background-color: rgb(13, 14, 13);
+    background-image: url(di.jpg);
+}
+:root{
+    --primary-color:black;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.signature-pad{
+   cursor: pointer;
+   border: 2px solid var(--primary-color);
+   border-radius: 4px;
+   box-shadow: 10px 7px 20px black;
+   background-color: rgb(195, 221, 190);
+}
+.clear button{
+    color: var(--primary-color);
+    font-weight: 800; 
+}
+@media (pointer: coarse)
+{
+    body{
+        overflow: hidden;
+    }
+}
+.submit{
+    
+    height: 30px;
+    border-radius: 20%;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    font-weight: 900;
+    box-shadow: 10px 7px 20px black;
+}
+h1{
+    text-shadow: 0px 0px 8px black,
+    0px 0px 12px black,
+    0px 0px 16px black;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+}
+.p1{
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 8px black,
+    0px 0px 12px black,
+    0px 0px 16px black;
+    font-weight: bolder;
+
+}
+.p2{
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 8px black,
+    0px 0px 12px black,
+    0px 0px 16px black;
+    font-weight: bolder;
+}
+.clear{
+    color: black;
+    text-transform: capitalize;
+}
